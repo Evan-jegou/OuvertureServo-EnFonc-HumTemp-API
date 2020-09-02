@@ -1,0 +1,2 @@
+# OuvertureServo-EnFonc-HumTemp-API
+Ces fichiers de code permettent la le pilotage par Arduino d'un servomoteur s'ajustant en fonction de la température et de l'humidité, ainsi que l'affichage de ceux-ci sur un écran LCD. La récupération des information passe par une connexion série RX/TX entre l'arduino et un ESP32, lui même connécté à une Gateway qui lui transmet les information par réseau LoRa, directement depuis l'API OpenWeatherMap.
